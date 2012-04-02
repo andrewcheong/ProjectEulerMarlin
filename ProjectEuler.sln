@@ -1,7 +1,51 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEuler", "ProjectEuler\ProjectEuler.csproj", "{71D53F45-62C4-4CBB-8060-C6EE23B75586}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8E9DF63A-9A74-4C51-B2A1-B0E31493650F}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		ProjectEuler.vsmdi = ProjectEuler.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEuler.Tests", "ProjectEuler.Tests\ProjectEuler.Tests.csproj", "{4EA8FEBA-42C2-4F9A-BB7A-CB0334B9BCC8}"
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ProjectEuler.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71D53F45-62C4-4CBB-8060-C6EE23B75586}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{71D53F45-62C4-4CBB-8060-C6EE23B75586}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{71D53F45-62C4-4CBB-8060-C6EE23B75586}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{71D53F45-62C4-4CBB-8060-C6EE23B75586}.Debug|x86.ActiveCfg = Debug|x86
+		{71D53F45-62C4-4CBB-8060-C6EE23B75586}.Debug|x86.Build.0 = Debug|x86
+		{71D53F45-62C4-4CBB-8060-C6EE23B75586}.Release|Any CPU.ActiveCfg = Release|x86
+		{71D53F45-62C4-4CBB-8060-C6EE23B75586}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{71D53F45-62C4-4CBB-8060-C6EE23B75586}.Release|Mixed Platforms.Build.0 = Release|x86
+		{71D53F45-62C4-4CBB-8060-C6EE23B75586}.Release|x86.ActiveCfg = Release|x86
+		{71D53F45-62C4-4CBB-8060-C6EE23B75586}.Release|x86.Build.0 = Release|x86
+		{4EA8FEBA-42C2-4F9A-BB7A-CB0334B9BCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA8FEBA-42C2-4F9A-BB7A-CB0334B9BCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA8FEBA-42C2-4F9A-BB7A-CB0334B9BCC8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4EA8FEBA-42C2-4F9A-BB7A-CB0334B9BCC8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4EA8FEBA-42C2-4F9A-BB7A-CB0334B9BCC8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4EA8FEBA-42C2-4F9A-BB7A-CB0334B9BCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA8FEBA-42C2-4F9A-BB7A-CB0334B9BCC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EA8FEBA-42C2-4F9A-BB7A-CB0334B9BCC8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4EA8FEBA-42C2-4F9A-BB7A-CB0334B9BCC8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4EA8FEBA-42C2-4F9A-BB7A-CB0334B9BCC8}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
